@@ -1,8 +1,8 @@
-# import toto as toto
-# from toto import age
+import dossier.toto as toto
+from dossier.toto import age
 
-# print(toto.name)
-# print(age)
+print(toto.name)
+print(age)
 
 import sys
 
