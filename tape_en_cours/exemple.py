@@ -1,5 +1,9 @@
-import toto as toto
-from toto import age
+# import toto as toto
+# from toto import age
 
-print(toto.name)
-print(age)
+# print(toto.name)
+# print(age)
+
+import sys
+
+print(sys.path)
