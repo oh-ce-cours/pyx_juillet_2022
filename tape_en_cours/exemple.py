@@ -1,5 +1,5 @@
-import dossier.toto as toto
-from dossier.toto import age
+import toto as toto
+from toto import age
 
 print(toto.name)
 print(age)
