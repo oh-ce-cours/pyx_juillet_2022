@@ -7,4 +7,3 @@ print(age)
 import sys
 
 print(sys.path)
- 
