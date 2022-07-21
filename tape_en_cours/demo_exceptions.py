@@ -31,6 +31,6 @@ except Exception as e:
     msg["To"] = "admin@example.com"
 
     # Send the message via our own SMTP server.
-    s = smtplib.SMTP("localhost")
+    s = smtplib.SMTP("localhost:1025")
     s.send_message(msg)
     s.quit()
