@@ -5,7 +5,7 @@ input_number = -1
 while input_number != random_number:
     try:
         input_number = int(input("Enter an integer number:"))
-    except:
+    except ValueError:
         print("Enter a number please")
         continue
 
