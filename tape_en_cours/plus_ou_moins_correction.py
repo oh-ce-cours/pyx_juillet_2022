@@ -14,3 +14,5 @@ while input_number != random_number:
     elif input_number < random_number:
         print("Input Number is less than random number")
 print("Deal!!!")
+
+sys.exit("toto")
