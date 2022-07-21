@@ -1,7 +1,3 @@
-import logging 
-
-logger = logging.getLogger(__name__)
-
 def regle_fizz_buzz(nombre: int) -> str:
     # fonction pure
     res = ""
