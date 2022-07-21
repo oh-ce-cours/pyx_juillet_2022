@@ -1,7 +1,7 @@
 import random
 
 a = 2
-a + "toto"
+b = "toto"
 
 random_number = random.randrange(1, 101)
 input_number = 0
