@@ -1,3 +1,5 @@
+from fizzbuzz import regle_fizz_buzz
+
 print(regle_fizz_buzz(1) == "1")
 print(regle_fizz_buzz(3) == "Fizz")
 print(regle_fizz_buzz(5) == "Buzz")
