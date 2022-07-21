@@ -14,8 +14,8 @@ msg.set_content(message)
 # me == the sender's email address
 # you == the recipient's email address
 msg["Subject"] = f"Everything is broken, pleaz help"
-msg["From"] = error @ example.com
-msg["To"] = admin @ example.com
+msg["From"] = "error@example.com"
+msg["To"] = "admin@example.com"
 
 # Send the message via our own SMTP server.
 s = smtplib.SMTP("localhost")
