@@ -21,4 +21,4 @@ def fizzbuzz(nombre_max: int):
 
 if __name__ == "__main__":
     # si la variable __name__ (gérée par l'interpréteur) est __main__ (si le fichier est appelé directement par l'interpréteur)
-    fizzbuzz(100)
+    regle_fizz_buzz(4)
