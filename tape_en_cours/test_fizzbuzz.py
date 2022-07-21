@@ -11,5 +11,5 @@ def test_regles():
 
 
 def test_divisibilite():
-    assert est_divisible_par(15, 5)
+    assert est_divisible_par(5, 15)
     assert not est_divisible_par(5, 3)
