@@ -10,6 +10,9 @@ while input_number != random_number:
         print("Enter a number please")
         continue
 
+
+MONTRER SENTRY 
+
     if input_number > random_number:
         print("Input Number is greater than random number")
     elif input_number < random_number:
