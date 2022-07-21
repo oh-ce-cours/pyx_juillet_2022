@@ -1,5 +1,5 @@
 def est_divisible_par(diviseur, divise):
-    return diviseur % divise == 0
+    return divise % diviseur == 0
 
 
 def regle_fizz_buzz(nombre: int) -> str:
