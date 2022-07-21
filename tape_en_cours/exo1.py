@@ -5,10 +5,8 @@ def regle_fizz_buzz(nombre: int) -> str:
         res += "Fizz"
     if nombre % 5 == 0:
         res += "Buzz"
-
     if not res:
         res = str(nombre)
-
     return res
 
 
