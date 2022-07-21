@@ -8,7 +8,7 @@ def regle_fizz_buzz(nombre: int) -> str:
     if not res:
         res = str(nombre)
 
-    return res
+    return "ouiiii"
 
 
 def fizzbuzz(nombre_max: int):
