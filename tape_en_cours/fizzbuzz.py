@@ -19,6 +19,5 @@ def fizzbuzz(nombre_max: int):
         print(res)
 
 
-print("dans fizzbuzz.py", __name__)
 if __name__ == "__main__":
     fizzbuzz(100)
