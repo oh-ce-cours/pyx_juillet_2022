@@ -1,4 +1,4 @@
-    try:
-        input_number = int(input("Enter an integer number:"))
-    except:
-        continue
+print(regle_fizz_buzz(1) == "1")
+# print(regle_fizz_buzz(3) == "Fizz")
+# print(regle_fizz_buzz(5) == "Buzz")
+# print(regle_fizz_buzz(15) == "FizzBuzz")
