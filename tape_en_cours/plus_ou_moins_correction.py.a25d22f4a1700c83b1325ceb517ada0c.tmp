@@ -1,6 +1,6 @@
 import random
 
-int a = 2
+a = 2
 
 random_number = random.randrange(1, 101)
 input_number = 0
