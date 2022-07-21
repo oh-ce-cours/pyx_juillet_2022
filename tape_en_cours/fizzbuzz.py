@@ -17,8 +17,3 @@ def fizzbuzz(nombre_max: int):
     for nombre in range(1, 1 + nombre_max):
         res = regle_fizz_buzz(nombre)
         print(res)
-
-
-__name__ = "toto"
-if __name__ == "__main__":
-    fizzbuzz(100)
