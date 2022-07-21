@@ -17,4 +17,8 @@ def fizzbuzz(nombre_max: int):
         print(res)
 
 
-fizzbuzz(100)
+print(regle_fizz_buzz(1))
+print(regle_fizz_buzz(3))
+print(regle_fizz_buzz(5))
+print(regle_fizz_buzz(15))
+#fizzbuzz(100)
