@@ -1,4 +1,4 @@
-def regle_fizz_buzz(nombre: int):
+def regle_fizz_buzz(nombre: int) -> str:
     res = ""
     if nombre % 3 == 0:
         res += "Fizz"
@@ -7,12 +7,14 @@ def regle_fizz_buzz(nombre: int):
 
     if not res:
         res = str(nombre)
-    print(res)
+
+    return res
 
 
 def fizzbuzz(nombre_max: int):
     for nombre in range(1, 1 + nombre_max):
-        regle_fizz_buzz(nombre)
+        res = regle_fizz_buzz(nombre)
+        print(res)
 
 
 print(regle_fizz_buzz(1) == "1")
