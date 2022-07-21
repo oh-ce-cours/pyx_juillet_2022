@@ -9,6 +9,8 @@ while input_number != random_number:
     except ValueError:
         print("Enter a number please")
         sys.exit(6)
+    except NameError:
+        sys.exit(7)
         continue
     if input_number > random_number:
         print("Input Number is greater than random number")
