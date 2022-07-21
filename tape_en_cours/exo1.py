@@ -1,7 +1,10 @@
+def est_divisible_par(diviseur, divise):
+    return divise % diviseur == 0
+
 def regle_fizz_buzz(nombre: int) -> str:
     # fonction pure
     res = ""
-    if nombre % 3 == 0:
+    if est_divisible_par(3, nombre):
         res += "Fizz"
     if nombre % 5 == 0:
         res += "Buzz"
