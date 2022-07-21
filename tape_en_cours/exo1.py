@@ -1,5 +1,6 @@
 def est_divisible_par(diviseur, divise):
-    return divise % diviseur == 0
+    # return divise % diviseur == 0
+    return divise / diviseur == float(divise // diviseur)
 
 
 def regle_fizz_buzz(nombre: int) -> str:
