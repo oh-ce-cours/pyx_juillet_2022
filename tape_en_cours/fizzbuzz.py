@@ -20,4 +20,4 @@ def fizzbuzz(nombre_max: int):
 
 
 if __name__ == "__main__":
-    fizzbuzz(100)
+  fizzbuzz(100)
