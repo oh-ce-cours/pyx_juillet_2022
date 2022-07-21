@@ -20,5 +20,5 @@ def fizzbuzz(nombre_max: int):
 
 
 print("dans fizzbuzz.py", __name__)
-# if est_lance_directement:
-#     fizzbuzz(100)
+if __name__ == "__main__":
+    fizzbuzz(100)
