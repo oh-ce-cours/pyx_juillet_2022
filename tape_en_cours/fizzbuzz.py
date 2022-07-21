@@ -1,5 +1,6 @@
 def regle_fizz_buzz(nombre: int) -> str:
     # fonction pure
+    print(__name__)
     res = ""
     if nombre % 3 == 0:
         res += "Fizz"
