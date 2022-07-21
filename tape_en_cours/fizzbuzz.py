@@ -17,3 +17,8 @@ def fizzbuzz(nombre_max: int):
     for nombre in range(1, 1 + nombre_max):
         res = regle_fizz_buzz(nombre)
         print(res)
+
+
+if __name__ == "__main__":
+    # si la variable __name__ (gérée par l'interpréteur) est __main__ (si le fichier est appelé directement par l'interpréteur)
+    fizzbuzz(100)
