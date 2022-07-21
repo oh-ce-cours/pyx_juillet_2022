@@ -1,5 +1,4 @@
 import random
-"
 
 random_number = random.randrange(1, 101)
 input_number = -1
