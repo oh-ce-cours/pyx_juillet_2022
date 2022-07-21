@@ -8,7 +8,6 @@ while input_number != random_number:
         input_number = int(input("Enter an integer number:"))
     except ValueError:
         print("Enter a number please")
-        sys.exit(4)
         continue
 
     if input_number > random_number:
