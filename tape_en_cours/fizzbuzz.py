@@ -19,5 +19,6 @@ def fizzbuzz(nombre_max: int):
         print(res)
 
 
+__name__ = "toto"
 if __name__ == "__main__":
-  fizzbuzz(100)
+    fizzbuzz(100)
