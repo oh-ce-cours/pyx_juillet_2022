@@ -2,7 +2,6 @@ import random
 
 a = 2
 b = "toto"
-b = "tata"
 
 random_number = random.randrange(1, 101)
 input_number = 0
