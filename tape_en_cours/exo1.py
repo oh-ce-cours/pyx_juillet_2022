@@ -6,7 +6,7 @@ def regle_fizz_buzz(nombre: int) -> str:
     res = ""
     if est_divisible_par(3, nombre):
         res += "Fizz"
-    if nombre % 5 == 0:
+    if est_divisible_par(5, nombre):
         res += "Buzz"
     if not res:
         res = str(nombre)
