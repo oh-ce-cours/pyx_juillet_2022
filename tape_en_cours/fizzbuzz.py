@@ -19,4 +19,6 @@ def fizzbuzz(nombre_max: int):
         print(res)
 
 
-fizzbuzz(100)
+print(__name__)
+# if est_lance_directement:
+#     fizzbuzz(100)
