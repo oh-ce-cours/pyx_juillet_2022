@@ -1,11 +1,12 @@
 def f():
-        1 / 0
+    1 / 0
+
 
 def g():
     f()
 
+
 try:
     g()
-except Ex:
-    pass 
-
+except Exception as e:
+    print(e)
