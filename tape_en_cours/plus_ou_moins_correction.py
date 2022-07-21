@@ -1,6 +1,6 @@
 import random
 
-a: int = 2
+a = 2
 a + "toto"
 
 random_number = random.randrange(1, 101)
