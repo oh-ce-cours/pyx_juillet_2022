@@ -1,4 +1,4 @@
-from fizzbuzz import regle_fizz_buzz, fizzbuzz
+from fizzbuzz import regle_fizz_buzz
 
 # print("dans test_fizzbuzz.py", __name__)
 
