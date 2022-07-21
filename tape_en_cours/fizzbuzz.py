@@ -13,7 +13,7 @@ def regle_fizz_buzz(nombre: int) -> str:
 
 def fizzbuzz(nombre_max: int):
     for nombre in range(1, 1 + nombre_max):
-
+        res = regle_fizz_buzz(nombre)
         print(res)
 
 
