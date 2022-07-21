@@ -6,6 +6,7 @@ while input_number != random_number:
     try:
         input_number = int(input("Enter an integer number:"))
     except:
+        print("Enter a number please")
         continue
 
     if input_number > random_number:
