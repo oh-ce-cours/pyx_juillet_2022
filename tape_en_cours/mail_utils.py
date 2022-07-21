@@ -5,6 +5,8 @@ import smtplib
 # Import the email modules we'll need
 from email.message import EmailMessage
 
+
+def send_email(message):
     msg = EmailMessage()
     msg.set_content(message)
 
