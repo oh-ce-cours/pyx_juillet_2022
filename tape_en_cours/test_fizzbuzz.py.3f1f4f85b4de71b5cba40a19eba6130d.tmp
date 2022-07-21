@@ -10,6 +10,6 @@ def test_regles():
     assert regle_fizz_buzz(15) == "FizzBuzz"
 
 
-def divisibilite():
+def test_divisibilite():
     assert est_divisible_par(15, 5)
     assert not est_divisible_par(5, 3)
