@@ -18,10 +18,3 @@ def send_email(message):
     s = smtplib.SMTP("localhost:1025")
     s.send_message(msg)
     s.quit()
-
-
-def f():
-    try:
-        return 1
-    finally:
-        return 2
