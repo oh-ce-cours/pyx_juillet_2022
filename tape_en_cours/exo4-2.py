@@ -16,6 +16,7 @@ file.extractall(extraction_path)
 file.close()
 
 # on va récupérer les extensions réelles des fichiers
+resultats= {}
 for filename in extraction_path.iterdir():
     str_filename = str(filename)
     extension = puremagic.from_file(str_filename)
