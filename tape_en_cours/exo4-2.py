@@ -24,4 +24,4 @@ for filename in extraction_path.iterdir():
         extension = ".jpg"
     # print(extension, str_filename)
     extensions.append(extension)
-print(extensions)
+print(set(extensions))
