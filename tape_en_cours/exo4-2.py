@@ -11,7 +11,6 @@ zip_path = Path(
 extraction_path = Path(
     "../medias/administrationSysteme/manipulationFichiers/fichiersVrac_dezippe_python"
 )
-
 recovered_path = Path("../medias/administrationSysteme/manipulationFichiers/recovered")
 
 # on dézippe le fichier
