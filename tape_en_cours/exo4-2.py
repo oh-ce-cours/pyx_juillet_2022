@@ -36,4 +36,4 @@ for extension, files in resultats.items():
     for file in files:
         new_filename = file.stem + extension
         new_path = recovered_path / extension[1:] / new_filename
-        print(new_path)
+        print(file, "->", new_path)
