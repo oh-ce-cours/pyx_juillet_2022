@@ -33,6 +33,7 @@ for filename in extraction_path.iterdir():
 print(resultats)
 
 for extension, files in resultats.items():
-    new_filename = files[0].stem + extension
-    new_path = recovered_path / extension[1:] / new_filename
-    print(new_path)
+    for file in files:
+        new_filename = file.stem + extension
+        new_path = recovered_path / extension[1:] / new_filename
+        print(new_path)
