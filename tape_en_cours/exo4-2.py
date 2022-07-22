@@ -16,4 +16,5 @@ file.extractall(extraction_path)
 file.close()
 
 # on va récupérer les extensions réelles des fichiers
-for filename in extraction_path.iterdir()
+for filename in extraction_path.iterdir():
+    print(filename)
