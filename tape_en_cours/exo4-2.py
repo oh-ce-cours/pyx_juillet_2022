@@ -2,6 +2,8 @@ from curses import newpad
 from pathlib import Path
 import tarfile
 import puremagic
+import shutil
+
 
 zip_path = Path(
     "../medias/administrationSysteme/manipulationFichiers/fichiersVrac.tar.gz"
@@ -37,3 +39,4 @@ for extension, files in resultats.items():
         new_filename = file.stem + extension
         new_path = recovered_path / extension[1:] / new_filename
         print(file, "->", new_path)
+        shutil.copyfile(file, new_path)
