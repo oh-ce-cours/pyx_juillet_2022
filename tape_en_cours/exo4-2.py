@@ -26,4 +26,5 @@ for filename in extraction_path.iterdir():
     if extension not in resultats:
         resultats[extension] = []
     resultats[extension].append(filename)
-    
+
+resultats
