@@ -9,6 +9,8 @@ extraction_path = Path(
     "../medias/administrationSysteme/manipulationFichiers/fichiersVrac_dezippe_python"
 )
 
+recovered_path = Path("../medias/administrationSysteme/manipulationFichiers/recovered")
+
 # on dézippe le fichier
 extraction_path.mkdir(parents=True, exist_ok=True)
 file = tarfile.open(zip_path)
