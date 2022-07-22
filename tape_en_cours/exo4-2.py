@@ -27,4 +27,4 @@ for filename in extraction_path.iterdir():
         resultats[extension] = []
     resultats[extension].append(filename)
 
-resultats
+print(resultats)
