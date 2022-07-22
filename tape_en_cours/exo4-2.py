@@ -19,4 +19,6 @@ file.close()
 for filename in extraction_path.iterdir():
     str_filename = str(filename)
     extension = puremagic.from_file(str_filename)
+    if extension == ".jfif":
+        extension = ".jpg"
     print(extension, str_filename)
