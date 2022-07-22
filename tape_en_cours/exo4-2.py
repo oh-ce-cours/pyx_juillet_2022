@@ -9,3 +9,5 @@ zip_path = Path(
 extraction_path = Path(
     "../medias/administrationSysteme/manipulationFichiers/fichiersVrac_dezippe_python"
 )
+
+extraction_path.mkdir(parents=True, exist_ok=True)
