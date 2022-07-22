@@ -30,3 +30,6 @@ for filename in extraction_path.iterdir():
     resultats[extension].append(filename)
 
 print(resultats)
+
+for extension, files in resultats.item():
+    print(extension, files)
