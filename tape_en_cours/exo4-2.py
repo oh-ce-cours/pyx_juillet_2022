@@ -31,5 +31,5 @@ for filename in extraction_path.iterdir():
 
 print(resultats)
 
-for extension, files in resultats.item():
+for extension, files in resultats.items():
     print(extension, files)
