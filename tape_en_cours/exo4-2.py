@@ -1,3 +1,4 @@
+from curses import newpad
 from pathlib import Path
 import tarfile
 import puremagic
@@ -32,4 +33,6 @@ for filename in extraction_path.iterdir():
 print(resultats)
 
 for extension, files in resultats.items():
-    print(extension, files)
+    new_filename = files[0]
+    new_path = recovered_path / extension / new_filename
+    print(new_path)
