@@ -40,5 +40,4 @@ for extension, files in resultats.items():
         new_path = recovered_path / extension[1:] / new_filename
         print(file, "->", new_path)
         new_path.mkdir(parents=True, exist_ok=True)
-
         shutil.copyfile(file, new_path)
