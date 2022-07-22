@@ -11,3 +11,6 @@ extraction_path = Path(
 )
 
 extraction_path.mkdir(parents=True, exist_ok=True)
+file = tarfile.open(zip_path)
+file.extractall(extraction_path)
+file.close()
