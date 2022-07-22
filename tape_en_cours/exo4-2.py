@@ -23,3 +23,7 @@ for filename in extraction_path.iterdir():
     if extension == ".jfif":
         extension = ".jpg"
     # print(extension, str_filename)
+    if extension not in resultats:
+        resultats[extension] = []
+    resultats[extension].append(filename)
+    
