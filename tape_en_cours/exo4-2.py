@@ -16,9 +16,12 @@ file.extractall(extraction_path)
 file.close()
 
 # on va récupérer les extensions réelles des fichiers
+extensions = []
 for filename in extraction_path.iterdir():
     str_filename = str(filename)
     extension = puremagic.from_file(str_filename)
     if extension == ".jfif":
         extension = ".jpg"
-    print(extension, str_filename)
+    # print(extension, str_filename)
+    extensions.append(extension)
+print(extensions)
